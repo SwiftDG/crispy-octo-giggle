@@ -36,13 +36,13 @@ app.post("/send-email", async (req, res) => {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "yourgmail@gmail.com", // replace with your Gmail
+          user: "davidisrael20328371@gmail.com", // replace with your Gmail
           pass: appPass,
         },
       });
 
       await transporter.sendMail({
-        from: '"Test Mailer" <yourgmail@gmail.com>', // must match Gmail
+        from: '"Test Mailer" <davidisrael20328371@gmail.com>', // must match Gmail
         to: email,
         subject: "Test Email",
         html: "<p>Hi there! This is a test email.</p>",
