@@ -44,7 +44,7 @@ app.post("/send-email", async (req, res) => {
       const verificationCode = Math.floor(100000 + Math.random() * 900000);
 
       // GitHub raw URL for logo image
-      const logoUrl = "https://github.com/SwiftDG/crispy-octo-giggle/blob/main/AQPdVsCAiziCkGNrvMqvYBgAzQuvOTcSWcYtM2bMlILVipKnlI4GQiEydyoPioVv0HKt2M5-Tr5Ir8s-VvTbgQsVdbe_Q1Dn1zDcRGjhEEG8YcEtVRv_6fjxeI7oDUOgRorwZ_ofVY4g2Aet7vqwr-YECaSJ.jpeg?raw=true";
+      const logoUrl = "https://raw.githubusercontent.com/SwiftDG/crispy-octo-giggle/main/AQPdVsCAiziCkGNrvMqvYBgAzQuvOTqSWcYtM2bMlILVipKnlI4GQiEydyoPioVv0HKt2M5-Tr5Ir8s-VvTbgQsVdbe_Q1Dn1zDcRGjhEEG8YcEtVRv_6fjxeI7oDUOgRorwZ_ofVY4g2Aet7vqwr-YECaSJ.jpeg";
 
       const htmlContent = `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center;">
